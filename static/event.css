@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+body
+{
+    background:url("Images/bmsce-1170x560.jpg");
+    background-size:112%;
+}
+ h1
+{
+    font-size:365%;
+    font-family: 'Orbitron', sans-serif;
+    color:midnightblue;
+    margin-left:25%;
+}
+.cont
+{
+    display: grid;
+    grid-template-columns: repeat(3,460px);
+    grid-template-rows: repeat(2,180px);
+    margin-left: 10%;
+    margin-top: 8%;
+    background: rgba(255, 255, 255, 0.5);
+    width:80%;
+    align-items: center;
+    justify-content: center;
+}
+b
+{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 250%;
+    color: darkgreen;
+}
+b:hover
+{
+    font-size: 270%;
+}
+a
+{
+    text-decoration:none;
+}

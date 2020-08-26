@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{event}}</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="Images/logo.jpg">
+</head>
+<body>
+    <div class="alert">
+        <p>{{error}} </p>
+        <button id="but" class="{{class}}">{{but}}</button>
+    </div>
+    <div class="but">
+        <a href="/part?event={{type}}"><h2>Go Back</h2></a>
+    </div>
+    <form action="/register" method="post">
+    <h1>Register for {{event}}</h1>
+    <h2>Note:Enter your full name if Your Full Name is not printed below</h2>
+    <label for ="name"><i>Name:</i></label>
+    <input type="text" id="name" name="name" value={{name}} placeholder="Enter Your Name">
+    <label for ="dept"><i>Department:</i></label>
+    <input type="text" id="dept" name="dept" value={{dept}} placeholder="Enter Your Department">
+    <label for ="usn"><i>USN:</i></label>
+    <input type="text" id="usn" name="usn" value={{usn}} placeholder="Enter Your USN">
+    <label for ="sem"><i>Semester:</i></label>
+    <input type="number" id="sem" name="sem" placeholder="Enter Your Semester">
+    <label for ="age"><i>Age:</i></label>
+    <input type="number" id="age" name="age" placeholder="Enter Your Age">
+    <label for ="event"><i>Event:</i></label>
+    <input type="text" id="event" name="event" value={{event}}>
+    <label for ="email"><i>Email:</i></label>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+    <label for ="phone"><i>Phone Number:</i></label>
+    <input type="number" id="phone" name="phone" placeholder="Enter Your Phone Number">
+    <button>Submit</button>
+    </form>
+    <script src="remove.js"></script>
+</body>
+</html>
