@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev":"nodemon app.js"
+    "dev": "env-cmd dev.env nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "mongoose": "^5.9.21"
   },
   "devDependencies": {
+    "env-cmd": "^8.0.2",
     "nodemon": "^2.0.4"
   }
 }
